@@ -4,3 +4,4 @@ The conceptual diagram below depicts the project conceptual design having 2 phas
 ![](document/hashDiagram.png)
 Radix partitioning was applied on the data relations, taking into account cache memory available. After that hash tables will be build and probed subsequently.
 ![](document/partitioning.png)
+ 
