@@ -1,0 +1,187 @@
+[
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/main.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/main.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/main.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/globals.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/globals.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/globals.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/cpp_layer/cpp_globals.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/cpp_layer/cpp_globals.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/cpp_layer/cpp_globals.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/cpp_layer/operations/primitives.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/cpp_layer/operations/primitives.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/cpp_layer/operations/primitives.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/cpp_layer/tests/test_cpp_execution.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/cpp_layer/tests/test_cpp_execution.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/cpp_layer/tests/test_cpp_execution.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/opencl_layer/openCL_globals.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/openCL_globals.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/openCL_globals.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/opencl_layer/classes/devices.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/classes/devices.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/classes/devices.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/opencl_layer/classes/platforms.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/classes/platforms.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/classes/platforms.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/opencl_layer/tests/test_openCL_execution.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/tests/test_openCL_execution.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/opencl_layer/tests/test_openCL_execution.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/task_layer/task_globals.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/task_globals.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/task_globals.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/task_layer/classes/task.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/classes/task.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/classes/task.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/task_layer/classes/data_pack.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/classes/data_pack.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/classes/data_pack.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/task_layer/classes/kernel_pack.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/classes/kernel_pack.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/classes/kernel_pack.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/task_layer/tests/test_task_execution.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/tests/test_task_execution.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/task_layer/tests/test_task_execution.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/tpch_globals.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/tpch_globals.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/tpch_globals.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/algebra/Operators.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/algebra/Operators.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/algebra/Operators.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/algebra/Pipeline.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/algebra/Pipeline.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/algebra/Pipeline.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/algebra/Types.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/algebra/Types.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/algebra/Types.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/Import.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Import.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Import.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/Database.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Database.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Database.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/Concurrency.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Concurrency.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Concurrency.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/Hashmap.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Hashmap.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Hashmap.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/MemoryPool.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/MemoryPool.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/MemoryPool.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/Profile.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Profile.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Profile.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/String.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/String.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/String.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/TPCH/common/runtime/Types.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Types.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/TPCH/common/runtime/Types.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/classes/primitive_node.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/classes/primitive_node.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/classes/primitive_node.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/classes/primitive_graph.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/classes/primitive_graph.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/classes/primitive_graph.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/morsel_driven/exchange.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/morsel_driven/exchange.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/morsel_driven/exchange.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/runtime_globals.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/runtime_globals.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/runtime_globals.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/tests/test_graph.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/test_graph.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/test_graph.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/tests/test_exchange_graph.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/test_exchange_graph.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/test_exchange_graph.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/tests/tpch_queries/query6.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/tpch_queries/query6.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/tpch_queries/query6.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/tests/tpch_queries/query1.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/tpch_queries/query1.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/tpch_queries/query1.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/src/hashing.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/src/hashing.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/src/hashing.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/src/hashArray.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/src/hashArray.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/src/hashArray.cpp"
+},
+{
+  "directory": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build",
+  "command": "/usr/local/bin/g++-4.9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++14 -o CMakeFiles/Hero.dir/runtime_layer/tests/tpch_queries/queryHashJoin.cpp.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/tpch_queries/queryHashJoin.cpp",
+  "file": "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/runtime_layer/tests/tpch_queries/queryHashJoin.cpp"
+}
+]

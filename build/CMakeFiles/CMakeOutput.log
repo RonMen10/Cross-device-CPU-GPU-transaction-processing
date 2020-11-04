@@ -1,0 +1,558 @@
+The system is: Darwin - 19.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/gcc-4.9 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/g++-4.9 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31878/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_31878.dir/build.make CMakeFiles/cmTC_31878.dir/build
+Building C object CMakeFiles/cmTC_31878.dir/testCCompiler.c.o
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_31878.dir/testCCompiler.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_31878
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31878.dir/link.txt --verbose=1
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31878.dir/testCCompiler.c.o  -o cmTC_31878 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61da0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_61da0.dir/build.make CMakeFiles/cmTC_61da0.dir/build
+Building C object CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc-4.9
+Target: x86_64-apple-darwin17.7.0
+Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c,c++,fortran,objc,obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed
+Thread model: posix
+gcc version 4.9.4 (Homebrew GCC 4.9.4_2) 
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2'
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpbase CMakeCCompilerABI.c -mmacosx-version-min=10.15.4 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o -version -o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccjXxs9e.s
+GNU C (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)
+	compiled by GNU C version 4.9.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../x86_64-apple-darwin17.7.0/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/include
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks
+End of search list.
+GNU C (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)
+	compiled by GNU C version 4.9.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bea00ea2685ba75d16926e50b780586b
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2'
+ as -arch x86_64 -force_cpusubtype_ALL -o CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccjXxs9e.s
+COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2'
+Linking C executable cmTC_61da0
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61da0.dir/link.txt --verbose=1
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o  -o cmTC_61da0 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc-4.9
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/lto-wrapper
+Target: x86_64-apple-darwin17.7.0
+Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c,c++,fortran,objc,obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed
+Thread model: posix
+gcc version 4.9.4 (Homebrew GCC 4.9.4_2) 
+COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_61da0' '-mtune=core2'
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/collect2 -dynamic -arch x86_64 -macosx_version_min 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -weak_reference_mismatches non-weak -o cmTC_61da0 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 4.9.4
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -weak_reference_mismatches non-weak -o cmTC_61da0 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 13:10:29 Apr  7 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 13:10:29 Apr  7 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4
+	/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ /usr/bin/nm -n CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/include]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  end of search list found
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/include] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/include]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit include dirs: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include;/usr/local/Cellar/gcc@4.9/4.9.4_2/include;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_61da0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_61da0.dir/build.make CMakeFiles/cmTC_61da0.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc-4.9]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c c++ fortran objc obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Homebrew GCC 4.9.4_2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2']
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpbase CMakeCCompilerABI.c -mmacosx-version-min=10.15.4 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o -version -o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccjXxs9e.s]
+  ignore line: [GNU C (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)]
+  ignore line: [	compiled by GNU C version 4.9.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../x86_64-apple-darwin17.7.0/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/include]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)]
+  ignore line: [	compiled by GNU C version 4.9.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bea00ea2685ba75d16926e50b780586b]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2']
+  ignore line: [ as -arch x86_64 -force_cpusubtype_ALL -o CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccjXxs9e.s]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=core2']
+  ignore line: [Linking C executable cmTC_61da0]
+  ignore line: [/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61da0.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o  -o cmTC_61da0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc-4.9]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c c++ fortran objc obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Homebrew GCC 4.9.4_2) ]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_61da0' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/collect2 -dynamic -arch x86_64 -macosx_version_min 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -weak_reference_mismatches non-weak -o cmTC_61da0 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.4] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_61da0] ==> ignore
+    arg [-L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4] ==> dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4]
+    arg [-L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../..] ==> dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_61da0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../..] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2d16/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d2d16.dir/build.make CMakeFiles/cmTC_d2d16.dir/build
+Building CXX object CMakeFiles/cmTC_d2d16.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d2d16.dir/testCXXCompiler.cxx.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d2d16
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d16.dir/link.txt --verbose=1
+/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d2d16.dir/testCXXCompiler.cxx.o  -o cmTC_d2d16 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_842fd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_842fd.dir/build.make CMakeFiles/cmTC_842fd.dir/build
+Building CXX object CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-4.9
+Target: x86_64-apple-darwin17.7.0
+Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c,c++,fortran,objc,obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed
+Thread model: posix
+gcc version 4.9.4 (Homebrew GCC 4.9.4_2) 
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mmacosx-version-min=10.15.4 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccyfOUXC.s
+GNU C++ (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)
+	compiled by GNU C version 4.9.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../x86_64-apple-darwin17.7.0/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin17.7.0
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/include
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks
+End of search list.
+GNU C++ (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)
+	compiled by GNU C version 4.9.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b70e3bf7fded6646b0457ce111c0efbd
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -force_cpusubtype_ALL -o CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccyfOUXC.s
+COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+Linking CXX executable cmTC_842fd
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_842fd.dir/link.txt --verbose=1
+/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_842fd 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-4.9
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/lto-wrapper
+Target: x86_64-apple-darwin17.7.0
+Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c,c++,fortran,objc,obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed
+Thread model: posix
+gcc version 4.9.4 (Homebrew GCC 4.9.4_2) 
+COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_842fd' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/collect2 -dynamic -arch x86_64 -macosx_version_min 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -weak_reference_mismatches non-weak -o cmTC_842fd -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 4.9.4
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -weak_reference_mismatches non-weak -o cmTC_842fd -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 13:10:29 Apr  7 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 13:10:29 Apr  7 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4
+	/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ /usr/bin/nm -n CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin17.7.0]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/include]
+    add: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  end of search list found
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/include/c++/4.9.4]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin17.7.0] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/include/c++/4.9.4/x86_64-apple-darwin17.7.0]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/include/c++/4.9.4/backward]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/include] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/include]
+  collapse include dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit include dirs: [/usr/local/Cellar/gcc@4.9/4.9.4_2/include/c++/4.9.4;/usr/local/Cellar/gcc@4.9/4.9.4_2/include/c++/4.9.4/x86_64-apple-darwin17.7.0;/usr/local/Cellar/gcc@4.9/4.9.4_2/include/c++/4.9.4/backward;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include;/usr/local/Cellar/gcc@4.9/4.9.4_2/include;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_842fd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_842fd.dir/build.make CMakeFiles/cmTC_842fd.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++-4.9]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c c++ fortran objc obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Homebrew GCC 4.9.4_2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2']
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /usr/local/Cellar/cmake/3.17.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mmacosx-version-min=10.15.4 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccyfOUXC.s]
+  ignore line: [GNU C++ (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)]
+  ignore line: [	compiled by GNU C version 4.9.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../x86_64-apple-darwin17.7.0/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/x86_64-apple-darwin17.7.0]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../../../../include/c++/4.9.4/backward]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/include]
+  ignore line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (Homebrew GCC 4.9.4_2) version 4.9.4 (x86_64-apple-darwin17.7.0)]
+  ignore line: [	compiled by GNU C version 4.9.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b70e3bf7fded6646b0457ce111c0efbd]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2']
+  ignore line: [ as -arch x86_64 -force_cpusubtype_ALL -o CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o /var/folders/r7/spvnw80d2vq4w7mpk3s8j0d00000gn/T//ccyfOUXC.s]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2']
+  ignore line: [Linking CXX executable cmTC_842fd]
+  ignore line: [/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_842fd.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_842fd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++-4.9]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin17.7.0 --prefix=/usr/local/Cellar/gcc@4.9/4.9.4_2 --libdir=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9 --enable-languages=c c++ fortran objc obj-c++ --program-suffix=-4.9 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --enable-plugin --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew GCC 4.9.4_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues MAKEINFO=missing --disable-nls --enable-multilib SED=/usr/bin/sed]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Homebrew GCC 4.9.4_2) ]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/:/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.15.4' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_842fd' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/collect2 -dynamic -arch x86_64 -macosx_version_min 10.15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -weak_reference_mismatches non-weak -o cmTC_842fd -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4 -L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/Cellar/gcc@4.9/4.9.4_2/libexec/gcc/x86_64-apple-darwin17.7.0/4.9.4/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.4] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_842fd] ==> ignore
+    arg [-L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4] ==> dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4]
+    arg [-L/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../..] ==> dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_842fd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4/../../..] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4]
+  collapse library dir [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9] ==> [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [stdc++;gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9/gcc/x86_64-apple-darwin17.7.0/4.9.4;/usr/local/Cellar/gcc@4.9/4.9.4_2/lib/gcc/4.9;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df4cd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df4cd.dir/build.make CMakeFiles/cmTC_df4cd.dir/build
+Building CXX object CMakeFiles/cmTC_df4cd.dir/feature_tests.cxx.o
+/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++14 -o CMakeFiles/cmTC_df4cd.dir/feature_tests.cxx.o -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_df4cd
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df4cd.dir/link.txt --verbose=1
+/usr/local/bin/g++-4.9    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df4cd.dir/feature_tests.cxx.o  -o cmTC_df4cd 
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+Determining if the CL_VERSION_1_2 exist passed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a659d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a659d.dir/build.make CMakeFiles/cmTC_a659d.dir/build
+Building C object CMakeFiles/cmTC_a659d.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc-4.9  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a659d.dir/CheckSymbolExists.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a659d
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a659d.dir/link.txt --verbose=1
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a659d.dir/CheckSymbolExists.c.o  -o cmTC_a659d 
+
+
+File /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0fcb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c0fcb.dir/build.make CMakeFiles/cmTC_c0fcb.dir/build
+Building C object CMakeFiles/cmTC_c0fcb.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c0fcb.dir/CheckIncludeFile.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c0fcb
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0fcb.dir/link.txt --verbose=1
+/usr/local/bin/gcc-4.9   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c0fcb.dir/CheckIncludeFile.c.o  -o cmTC_c0fcb 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6f2c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f6f2c.dir/build.make CMakeFiles/cmTC_f6f2c.dir/build
+Building C object CMakeFiles/cmTC_f6f2c.dir/src.c.o
+/usr/local/bin/gcc-4.9   -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f6f2c.dir/src.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f6f2c
+/usr/local/Cellar/cmake/3.17.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f2c.dir/link.txt --verbose=1
+/usr/local/bin/gcc-4.9  -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f6f2c.dir/src.c.o  -o cmTC_f6f2c 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

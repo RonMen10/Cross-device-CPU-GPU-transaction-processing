@@ -1,0 +1,87 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f17eb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f17eb.dir/build.make CMakeFiles/cmTC_f17eb.dir/build
+Building C object CMakeFiles/cmTC_f17eb.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc-4.9  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f17eb.dir/CheckSymbolExists.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_2' undeclared (first use in this function)
+   return ((int*)(&CL_VERSION_2_2))[argc];
+                   ^
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_f17eb.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_f17eb/fast] Error 2
+
+
+File /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6178/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d6178.dir/build.make CMakeFiles/cmTC_d6178.dir/build
+Building C object CMakeFiles/cmTC_d6178.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc-4.9  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d6178.dir/CheckSymbolExists.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_1' undeclared (first use in this function)
+   return ((int*)(&CL_VERSION_2_1))[argc];
+                   ^
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_d6178.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d6178/fast] Error 2
+
+
+File /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cde8c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cde8c.dir/build.make CMakeFiles/cmTC_cde8c.dir/build
+Building C object CMakeFiles/cmTC_cde8c.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc-4.9  -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cde8c.dir/CheckSymbolExists.c.o   -c /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_0' undeclared (first use in this function)
+   return ((int*)(&CL_VERSION_2_0))[argc];
+                   ^
+/Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_cde8c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_cde8c/fast] Error 2
+
+
+File /Users/ronald/Desktop/DBSE---Project/CODD-pro-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
