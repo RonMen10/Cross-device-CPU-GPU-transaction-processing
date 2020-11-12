@@ -5,7 +5,6 @@ The conceptual diagram below depicts the project conceptual design having 2 phas
 <p align = "center">
   <img src= "https://github.com/RonMen10/Cross-device-CPU-GPU-transaction-processing/blob/master/document/hashDiagram.png" / >
  
-
 Radix partitioning was applied on the data relations, taking into account cache memory available. After that hash tables will be build and probed subsequently.
 
 **Radix Partitioning:**
