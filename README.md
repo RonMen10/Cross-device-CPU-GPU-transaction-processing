@@ -1,7 +1,11 @@
 # Cross-device-CPU-GPU-transaction-processing
 
 The conceptual diagram below depicts the project conceptual design having 2 phases; hash build and hash join. Both phases have a router operator which is an additional component to  the  system  in  order to  perform  simultaneous tasks which  is  expected to  improve  the  system’s  overall time efficiency. Router operator would be receiving the data from DBMS as data tables, then partitions will be created and delivered to CPUs and GPUs for concurrent processing.
-![](document/hashDiagram.png)
+
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Cross-device-CPU-GPU-transaction-processing/blob/master/document/hashDiagram.png" / >
+ 
+
 Radix partitioning was applied on the data relations, taking into account cache memory available. After that hash tables will be build and probed subsequently.
 
 **Radix Partitioning:**
@@ -12,5 +16,8 @@ Radix partitioning was applied on the data relations, taking into account cache 
 - On this step, all threads in parallel place tuples on their respective positions of the output array ordered by radix index. This way parallelism can be achieved.
 - Each radix index corresponds to a partition, so after this each partition of data can be delivered to the hash build process.
 
-![](document/partitioning.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Cross-device-CPU-GPU-transaction-processing/blob/master/document/partitioning.png" / >
+ 
+
  
